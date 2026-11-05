@@ -1,0 +1,6 @@
+{
+  "name": "MARCUS BOOK STORE - Online Book Store",
+  "description": "An elegant, modern online bookstore featuring curated titles in Self-Help, Philosophy, and Fiction with shopping cart, user accounts, and checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

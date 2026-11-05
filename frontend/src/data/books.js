@@ -1,5 +1,23 @@
+
+import atomicHabits from '../assets/images/book_atomic_habits_1793530486167.jpg';
+import psychologyMoney from '../assets/images/book_psychology_money_1793530488565.jpg';
+import deepWork from '../assets/images/book_deep_work_1793530486963.jpg';
+
+import meditations from '../assets/images/book_meditations_1793530488756.jpg';
+import republic from '../assets/images/book_the_republic_1793530488726.jpg';
+import stranger from '../assets/images/book_the_stranger_1793530489534.jpg';
+
+import alchemist from '../assets/images/book_the_alchemist_1793530490739.jpg';
+import book1984 from '../assets/images/book_1984_1793530490144.jpg';
+import kiteRunner from '../assets/images/book_kite_runner_1793530491004.jpg';
+
+import selfHelpCategory from '../assets/images/cat_self_help_1793530463583.jpg';
+import philosophyCategory from '../assets/images/cat_philosophy_1793530464147.jpg';
+import fictionCategory from '../assets/images/cat_fiction_1793530464128.jpg';
+
+
 export const BOOKS = [
-    // --- Category 1: Self-Help Books ---
+    // Category 1: Self-Help Books
     {
         id: 'atomic-habits',
         title: 'Atomic Habits',
@@ -9,7 +27,7 @@ export const BOOKS = [
         price: 499,
         originalPrice: 699,
         description: 'An easy & proven way to build good habits & break bad ones through tiny, incremental daily transformations.',
-        coverImage: '/src/assets/images/book_atomic_habits_1793530486167.jpg',
+        coverImage: atomicHabits,
         rating: 4.8,
         pages: 320,
         year: 2018,
@@ -25,7 +43,7 @@ export const BOOKS = [
         price: 399,
         originalPrice: 499,
         description: 'Timeless lessons on wealth, greed, and happiness exploring how people think about money and behavioral finance.',
-        coverImage: '/src/assets/images/book_psychology_money_1793530488565.jpg',
+        coverImage: psychologyMoney,
         rating: 4.7,
         pages: 256,
         year: 2020,
@@ -41,14 +59,15 @@ export const BOOKS = [
         price: 449,
         originalPrice: 599,
         description: 'Rules for focused success in a distracted world, teaching how to cultivate deep concentration in a hyper-connected age.',
-        coverImage: '/src/assets/images/book_deep_work_1793530486963.jpg',
+        coverImage: deepWork,
         rating: 4.6,
         pages: 304,
         year: 2016,
         featured: false,
         isbn: '978-1455586691',
     },
-    // --- Category 2: Philosophy Books ---
+
+    // Category 2: Philosophy Books
     {
         id: 'meditations',
         title: 'Meditations',
@@ -58,7 +77,7 @@ export const BOOKS = [
         price: 349,
         originalPrice: 450,
         description: 'Private reflections and enduring Stoic wisdom from the Roman Emperor on resilience, virtue, and tranquility.',
-        coverImage: '/src/assets/images/book_meditations_1793530488756.jpg',
+        coverImage: meditations,
         rating: 4.9,
         pages: 254,
         year: 180,
@@ -74,7 +93,7 @@ export const BOOKS = [
         price: 389,
         originalPrice: 499,
         description: 'The foundational cornerstone of Western political philosophy examining justice, the ideal city-state, and the Allegory of the Cave.',
-        coverImage: '/src/assets/images/book_the_republic_1793530488726.jpg',
+        coverImage: republic,
         rating: 4.5,
         pages: 416,
         year: -375,
@@ -90,14 +109,15 @@ export const BOOKS = [
         price: 299,
         originalPrice: 399,
         description: 'A masterpiece of Absurdist literature chronicling Meursault, a man emotionally detached from societal expectations in Algiers.',
-        coverImage: '/src/assets/images/book_the_stranger_1793530489534.jpg',
+        coverImage: stranger,
         rating: 4.6,
         pages: 160,
         year: 1942,
         featured: true,
         isbn: '978-0679720201',
     },
-    // --- Category 3: Fiction Books ---
+
+    // Category 3: Fiction Books
     {
         id: 'the-alchemist',
         title: 'The Alchemist',
@@ -107,7 +127,7 @@ export const BOOKS = [
         price: 329,
         originalPrice: 420,
         description: 'A lyrical fable about following your dream and listening to your heart through Santiago’s journey to the Egyptian pyramids.',
-        coverImage: '/src/assets/images/book_the_alchemist_1793530490739.jpg',
+        coverImage: alchemist,
         rating: 4.8,
         pages: 208,
         year: 1988,
@@ -123,7 +143,7 @@ export const BOOKS = [
         price: 349,
         originalPrice: 450,
         description: 'A chilling dystopian warning depicting Oceania, Big Brother, Thought Police, and the struggle for individual truth.',
-        coverImage: '/src/assets/images/book_1984_1793530490144.jpg',
+        coverImage: book1984,
         rating: 4.9,
         pages: 328,
         year: 1949,
@@ -139,7 +159,7 @@ export const BOOKS = [
         price: 429,
         originalPrice: 550,
         description: 'An unforgettable story of unlikely friendship, deep betrayal, and the quest for redemption against the backdrop of Afghanistan.',
-        coverImage: '/src/assets/images/book_kite_runner_1793530491004.jpg',
+        coverImage: kiteRunner,
         rating: 4.8,
         pages: 372,
         year: 2003,
@@ -147,6 +167,8 @@ export const BOOKS = [
         isbn: '978-1594631931',
     },
 ];
+
+
 export const CATEGORIES = [
     {
         id: 'all',
@@ -158,20 +180,20 @@ export const CATEGORIES = [
         label: 'Self-Help',
         description: 'Practical frameworks, mindful habits, and strategies for personal growth and sustained focus.',
         count: 3,
-        image: '/src/assets/images/cat_self_help_1793530463583.jpg',
+        image: selfHelpCategory,
     },
     {
         id: 'philosophy',
         label: 'Philosophy',
         description: 'Timeless meditations, classic dialogues, and deep inquiries into meaning, ethics, and human nature.',
         count: 3,
-        image: '/src/assets/images/cat_philosophy_1793530464147.jpg',
+        image: philosophyCategory,
     },
     {
         id: 'fiction',
         label: 'Fiction',
         description: 'Imaginative journeys, celebrated prose, and profound narratives that reveal the human spirit.',
         count: 3,
-        image: '/src/assets/images/cat_fiction_1793530464128.jpg',
+        image: fictionCategory,
     },
 ];

@@ -1,7 +1,175 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Compass, Award, CheckCircle2, ArrowRight } from 'lucide-react';
+import {
+    Compass,
+    Award,
+    CheckCircle2,
+    ArrowRight
+} from 'lucide-react';
+
+import aboutImage from '../assets/images/about_reading_sanctuary_1793530462404.jpg';
+
 export const AboutPage = () => {
-    return (_jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-20", children: [_jsxs("div", { className: "max-w-3xl space-y-4", children: [_jsx("span", { className: "text-xs font-semibold tracking-wider uppercase text-[#1A382B] font-mono", children: "About MARCUS BOOK STORE" }), _jsx("h1", { className: "font-serif text-3xl sm:text-5xl font-bold text-stone-900 tracking-tight leading-tight", children: "A Sanctuary for Ideas, Literature & Lifelong Growth" }), _jsx("p", { className: "text-base sm:text-lg text-stone-600 leading-relaxed", children: "Founded with a quiet conviction: that in a world of fleeting attention spans and endless digital noise, physical books remain humanity\u2019s most intimate and enduring technology for deep understanding." })] }), _jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-12 gap-12 items-center", children: [_jsxs("div", { className: "lg:col-span-7 relative", children: [_jsx("div", { className: "aspect-4/3 rounded-2xl overflow-hidden shadow-xl border border-stone-200", children: _jsx("img", { src: "/src/assets/images/about_reading_sanctuary_1793530462404.jpg", alt: "Cozy reading room with open books and warm lamplight", referrerPolicy: "no-referrer", className: "w-full h-full object-cover" }) }), _jsxs("div", { className: "hidden sm:block absolute -bottom-6 -right-6 bg-white p-5 rounded-xl shadow-lg border border-stone-200/90 max-w-xs", children: [_jsx("span", { className: "text-xs uppercase font-mono text-[#1A382B] font-bold block", children: "Curator\u2019s Creed" }), _jsx("p", { className: "text-xs text-stone-600 italic mt-1", children: "\u201CWe don\u2019t stock every title ever published. We stock the ones that change how you think.\u201D" })] })] }), _jsxs("div", { className: "lg:col-span-5 space-y-6", children: [_jsx("h2", { className: "font-serif text-2xl sm:text-3xl font-bold text-stone-900 leading-snug", children: "Promoting Reading, Knowledge, Imagination & Personal Growth" }), _jsx("p", { className: "text-sm text-stone-600 leading-relaxed", children: "At MARCUS BOOK STORE, we believe that reading is neither a luxury nor a chore \u2014 it is an active dialogue with history\u2019s sharpest thinkers, bravest storytellers, and profoundest mentors." }), _jsx("p", { className: "text-sm text-stone-600 leading-relaxed", children: "When you open a book from our shelves, you are not merely consuming text; you are investing in mental resilience, emotional empathy, and creative clarity. We aim to spark a renewed appreciation for slow, reflective reading across communities." }), _jsx("div", { className: "pt-2", children: _jsxs(Link, { to: "/books", className: "inline-flex items-center gap-2 px-5 py-2.5 bg-[#1A382B] hover:bg-[#142D22] text-amber-50 text-xs font-semibold rounded-lg transition-colors shadow-xs", children: [_jsx("span", { children: "Explore Our Books" }), _jsx(ArrowRight, { className: "w-3.5 h-3.5" })] }) })] })] }), _jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8", children: [_jsxs("div", { className: "bg-[#FAF5ED] border border-[#E8DEC9] rounded-2xl p-8 sm:p-10 space-y-4", children: [_jsx("div", { className: "w-10 h-10 rounded-lg bg-[#1A382B] text-amber-100 flex items-center justify-center", children: _jsx(Compass, { className: "w-5 h-5" }) }), _jsx("h3", { className: "font-serif text-2xl font-bold text-stone-900", children: "Our Mission" }), _jsx("p", { className: "text-sm text-stone-600 leading-relaxed", children: "To inspire and empower individuals by making thoughtfully curated, high-quality literature accessible. We exist to guide readers toward books that cultivate genuine habits, sharpen philosophical inquiry, and awaken deep imaginative possibilities." })] }), _jsxs("div", { className: "bg-[#FAF5ED] border border-[#E8DEC9] rounded-2xl p-8 sm:p-10 space-y-4", children: [_jsx("div", { className: "w-10 h-10 rounded-lg bg-[#1A382B] text-amber-100 flex items-center justify-center", children: _jsx(Award, { className: "w-5 h-5" }) }), _jsx("h3", { className: "font-serif text-2xl font-bold text-stone-900", children: "Our Vision" }), _jsx("p", { className: "text-sm text-stone-600 leading-relaxed", children: "To become a trusted literary haven known for editorial honesty and uncompromising curation \u2014 nurturing a nationwide generation of lifelong readers who cherish wisdom, critical thinking, and artistic depth." })] })] }), _jsxs("div", { className: "space-y-8 bg-white border border-stone-200/90 rounded-2xl p-8 sm:p-12 shadow-xs", children: [_jsxs("div", { className: "max-w-2xl", children: [_jsx("span", { className: "text-xs font-semibold uppercase tracking-wider text-[#1A382B] font-mono", children: "Uncompromising Standards" }), _jsx("h3", { className: "font-serif text-3xl font-bold text-stone-900 mt-1", children: "Why Choose MARCUS BOOK STORE?" }), _jsx("p", { className: "text-xs text-stone-500 mt-2", children: "The difference between an automated warehouse and a dedicated bookstore." })] }), _jsxs("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8 pt-4", children: [_jsxs("div", { className: "space-y-3", children: [_jsxs("div", { className: "flex items-center gap-2 text-[#1A382B]", children: [_jsx(CheckCircle2, { className: "w-5 h-5 shrink-0" }), _jsx("h4", { className: "font-serif font-bold text-base text-stone-900", children: "Rigorous Editorial Selection" })] }), _jsx("p", { className: "text-xs text-stone-600 leading-relaxed", children: "Every single volume in our collection has been vetted for lasting relevance. You will find foundational masterworks, not transient trends." })] }), _jsxs("div", { className: "space-y-3", children: [_jsxs("div", { className: "flex items-center gap-2 text-[#1A382B]", children: [_jsx(CheckCircle2, { className: "w-5 h-5 shrink-0" }), _jsx("h4", { className: "font-serif font-bold text-base text-stone-900", children: "Collector-Grade Editions" })] }), _jsx("p", { className: "text-xs text-stone-600 leading-relaxed", children: "We work directly with premier publishing houses to provide authentic prints, sturdy bindings, and readable typography that last for generations." })] }), _jsxs("div", { className: "space-y-3", children: [_jsxs("div", { className: "flex items-center gap-2 text-[#1A382B]", children: [_jsx(CheckCircle2, { className: "w-5 h-5 shrink-0" }), _jsx("h4", { className: "font-serif font-bold text-base text-stone-900", children: "Careful Book Parcel Dispatch" })] }), _jsx("p", { className: "text-xs text-stone-600 leading-relaxed", children: "Books are treated with reverence. Each parcel is wrapped in eco-friendly packaging and delivered safely to doorsteps across India." })] })] })] })] }));
+    return (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-20">
+
+            {/* About Header */}
+            <div className="max-w-3xl space-y-4">
+                <span className="text-xs font-semibold tracking-wider uppercase text-[#1A382B] font-mono">
+                    About MARCUS BOOK STORE
+                </span>
+
+                <h1 className="font-serif text-3xl sm:text-5xl font-bold text-stone-900 tracking-tight leading-tight">
+                    A Sanctuary for Ideas, Literature & Lifelong Growth
+                </h1>
+
+                <p className="text-base sm:text-lg text-stone-600 leading-relaxed">
+                    Founded with a quiet conviction: that in a world of fleeting attention spans and endless digital noise, physical books remain humanity’s most intimate and enduring technology for deep understanding.
+                </p>
+            </div>
+
+            {/* About Image and Description */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+                <div className="lg:col-span-7 relative">
+                    <div className="aspect-4/3 rounded-2xl overflow-hidden shadow-xl border border-stone-200">
+                        <img
+                            src={aboutImage}
+                            alt="Cozy reading room with open books and warm lamplight"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+
+                    <div className="hidden sm:block absolute -bottom-6 -right-6 bg-white p-5 rounded-xl shadow-lg border border-stone-200/90 max-w-xs">
+                        <span className="text-xs uppercase font-mono text-[#1A382B] font-bold block">
+                            Curator’s Creed
+                        </span>
+
+                        <p className="text-xs text-stone-600 italic mt-1">
+                            “We don’t stock every title ever published. We stock the ones that change how you think.”
+                        </p>
+                    </div>
+                </div>
+
+                <div className="lg:col-span-5 space-y-6">
+                    <h2 className="font-serif text-2xl sm:text-3xl font-bold text-stone-900 leading-snug">
+                        Promoting Reading, Knowledge, Imagination & Personal Growth
+                    </h2>
+
+                    <p className="text-sm text-stone-600 leading-relaxed">
+                        At MARCUS BOOK STORE, we believe that reading is neither a luxury nor a chore — it is an active dialogue with history’s sharpest thinkers, bravest storytellers, and profoundest mentors.
+                    </p>
+
+                    <p className="text-sm text-stone-600 leading-relaxed">
+                        When you open a book from our shelves, you are not merely consuming text; you are investing in mental resilience, emotional empathy, and creative clarity. We aim to spark a renewed appreciation for slow, reflective reading across communities.
+                    </p>
+
+                    <div className="pt-2">
+                        <Link
+                            to="/books"
+                            className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#1A382B] hover:bg-[#142D22] text-amber-50 text-xs font-semibold rounded-lg transition-colors shadow-xs"
+                        >
+                            <span>Explore Our Books</span>
+                            <ArrowRight className="w-3.5 h-3.5" />
+                        </Link>
+                    </div>
+                </div>
+            </div>
+
+            {/* Mission and Vision */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <div className="bg-[#FAF5ED] border border-[#E8DEC9] rounded-2xl p-8 sm:p-10 space-y-4">
+                    <div className="w-10 h-10 rounded-lg bg-[#1A382B] text-amber-100 flex items-center justify-center">
+                        <Compass className="w-5 h-5" />
+                    </div>
+
+                    <h3 className="font-serif text-2xl font-bold text-stone-900">
+                        Our Mission
+                    </h3>
+
+                    <p className="text-sm text-stone-600 leading-relaxed">
+                        To inspire and empower individuals by making thoughtfully curated, high-quality literature accessible. We exist to guide readers toward books that cultivate genuine habits, sharpen philosophical inquiry, and awaken deep imaginative possibilities.
+                    </p>
+                </div>
+
+                <div className="bg-[#FAF5ED] border border-[#E8DEC9] rounded-2xl p-8 sm:p-10 space-y-4">
+                    <div className="w-10 h-10 rounded-lg bg-[#1A382B] text-amber-100 flex items-center justify-center">
+                        <Award className="w-5 h-5" />
+                    </div>
+
+                    <h3 className="font-serif text-2xl font-bold text-stone-900">
+                        Our Vision
+                    </h3>
+
+                    <p className="text-sm text-stone-600 leading-relaxed">
+                        To become a trusted literary haven known for editorial honesty and uncompromising curation — nurturing a nationwide generation of lifelong readers who cherish wisdom, critical thinking, and artistic depth.
+                    </p>
+                </div>
+            </div>
+
+            {/* Why Choose Us */}
+            <div className="space-y-8 bg-white border border-stone-200/90 rounded-2xl p-8 sm:p-12 shadow-xs">
+
+                <div className="max-w-2xl">
+                    <span className="text-xs font-semibold uppercase tracking-wider text-[#1A382B] font-mono">
+                        Uncompromising Standards
+                    </span>
+
+                    <h3 className="font-serif text-3xl font-bold text-stone-900 mt-1">
+                        Why Choose MARCUS BOOK STORE?
+                    </h3>
+
+                    <p className="text-xs text-stone-500 mt-2">
+                        The difference between an automated warehouse and a dedicated bookstore.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-4">
+
+                    <div className="space-y-3">
+                        <div className="flex items-center gap-2 text-[#1A382B]">
+                            <CheckCircle2 className="w-5 h-5 shrink-0" />
+                            <h4 className="font-serif font-bold text-base text-stone-900">
+                                Rigorous Editorial Selection
+                            </h4>
+                        </div>
+
+                        <p className="text-xs text-stone-600 leading-relaxed">
+                            Every single volume in our collection has been vetted for lasting relevance. You will find foundational masterworks, not transient trends.
+                        </p>
+                    </div>
+
+                    <div className="space-y-3">
+                        <div className="flex items-center gap-2 text-[#1A382B]">
+                            <CheckCircle2 className="w-5 h-5 shrink-0" />
+                            <h4 className="font-serif font-bold text-base text-stone-900">
+                                Collector-Grade Editions
+                            </h4>
+                        </div>
+
+                        <p className="text-xs text-stone-600 leading-relaxed">
+                            We work directly with premier publishing houses to provide authentic prints, sturdy bindings, and readable typography that last for generations.
+                        </p>
+                    </div>
+
+                    <div className="space-y-3">
+                        <div className="flex items-center gap-2 text-[#1A382B]">
+                            <CheckCircle2 className="w-5 h-5 shrink-0" />
+                            <h4 className="font-serif font-bold text-base text-stone-900">
+                                Careful Book Parcel Dispatch
+                            </h4>
+                        </div>
+
+                        <p className="text-xs text-stone-600 leading-relaxed">
+                            Books are treated with reverence. Each parcel is wrapped in eco-friendly packaging and delivered safely to doorsteps across India.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    );
 };
